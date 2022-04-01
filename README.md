@@ -25,7 +25,8 @@ Edit the file and export these proxy environment variables
 export HTTP_PROXY=http://172.16.199.40:8080
 export HTTPS_PROXY=https://172.16.199.40:8080
  ```
- ![image](https://user-images.githubusercontent.com/23384886/161261536-725a9678-9f02-4eb7-966d-c1ea96c4e87f.png)
+ 
+ <img width="50%" src="https://user-images.githubusercontent.com/23384886/161261536-725a9678-9f02-4eb7-966d-c1ea96c4e87f.png"/>
 
 #### File 2 : `/etc/apt/apt.conf` 
 
