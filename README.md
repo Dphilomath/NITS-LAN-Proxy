@@ -1,7 +1,7 @@
 # NITS LAN Proxy
 ```
-Proxy Address :  `172.16.199.40`
-Proxy Port    :  `8080`
+Proxy Address :  172.16.199.40
+Proxy Port    :  8080
 ```
 
 ## Ubuntu
@@ -12,6 +12,8 @@ Set network proxy to `manual`, and configure the proxy as following
 HTTP Proxy: 172.16.199.40:8080
 HTTPS Proxy: 172.16.199.40:8080
 ```
+![image](https://user-images.githubusercontent.com/23384886/161261145-bef92f28-a06f-4b61-ad62-1a5b971fbaea.png)
+
 
 To get CLI tools to use the proxy, we need to configure two more files.
 
