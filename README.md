@@ -1,7 +1,6 @@
 # NITS-LAN-Proxy
-A friendly guide to configuring proxy server on your systems
-### Proxy Address :  `172.16.199.40`
-### Proxy Port    :  `8080`
+##### Proxy Address :  ``172.16.199.40``
+##### Proxy Port    :  ``8080``
 
 ## Ubuntu
 Head to settings and open network.
