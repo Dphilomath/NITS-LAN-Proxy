@@ -17,21 +17,22 @@ HTTPS Proxy: 172.16.199.40:8080
 
 To get CLI tools to use the proxy, we need to configure two more files.
 
-#### File 1 : `.bashrc` file in your home directory
+#### File 1 : `.bashrc` file in your home directory (hidden file)
 
 Edit the file and export these proxy environment variables
 ```
 export HTTP_PROXY=http://172.16.199.40:8080
 export HTTPS_PROXY=https://172.16.199.40:8080
  ```
+ ![image](https://user-images.githubusercontent.com/23384886/161261536-725a9678-9f02-4eb7-966d-c1ea96c4e87f.png)
+
 #### File 2 : `/etc/apt/apt.conf` 
 
-Add these two lines in the apt.conf file:
+If the file doesn't exist, create it and add these two lines in the apt.conf file:
 ```
 Acquire::http::proxy "http://172.16.199.40:8080/"
 Acquire::https::proxy "https://172.16.199.40:8080/"
 ```
-
 *Note: Don't confuse `apt.conf.d` with `apt.conf`*
 
 ## Router
