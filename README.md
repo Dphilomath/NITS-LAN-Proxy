@@ -6,8 +6,8 @@ Head to settings and open network.
 
 Set `Network Proxy` to `manual`, and configure the proxy as
 
-**HTTP Proxy: 172.16.199.40:8080**\
-**HTTPS Proxy: 172.16.199.40:8080**
+**HTTP Proxy: `172.16.199.40:8080`**
+**HTTPS Proxy: `172.16.199.40:8080`**
 
 If you are using a router, add the network gateway ip in ignore list.
 
