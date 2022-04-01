@@ -2,9 +2,9 @@
 A friendly guide to configuring proxy server on your systems
 
 ## Ubuntu
-Go to settings->Network
+Head to settings and open network.
 
-Set Network Proxy to manual, and configure the proxy as
+Set `Network Proxy` to `manual`, and configure the proxy as
 
 **HTTP Proxy: 172.16.199.40:8080**\
 **HTTPS Proxy: 172.16.199.40:8080**
