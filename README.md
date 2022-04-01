@@ -12,7 +12,8 @@ Set network proxy to `manual`, and configure the proxy as following
 HTTP Proxy: 172.16.199.40:8080
 HTTPS Proxy: 172.16.199.40:8080
 ```
-![image](https://user-images.githubusercontent.com/23384886/161261232-607e482f-9e9d-43e7-9470-8cd7c7acf28f.png)
+
+<img width="50%" src="https://user-images.githubusercontent.com/23384886/161261232-607e482f-9e9d-43e7-9470-8cd7c7acf28f.png"/>
 
 
 To get CLI tools to use the proxy, we need to configure two more files.
