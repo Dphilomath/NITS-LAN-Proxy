@@ -1,6 +1,8 @@
 # NITS LAN Proxy
+```
 Proxy Address :  `172.16.199.40`
 Proxy Port    :  `8080`
+```
 
 ## Ubuntu
 
