@@ -1,30 +1,36 @@
 # NITS-LAN-Proxy
 A friendly guide to configuring proxy server on your systems
+### Proxy Address :  `172.16.199.40`
+### Proxy Port    :  `8080`
 
 ## Ubuntu
 Head to settings and open network.
 
-Set `Network Proxy` to `manual`, and configure the proxy as
+Set network proxy to `manual`, and configure the proxy as following
 
-*HTTP Proxy: `172.16.199.40:8080`*
+ HTTP Proxy: `172.16.199.40:8080`
 <br>
-*HTTPS Proxy: `172.16.199.40:8080`*
-
-If you are using a router, add the network gateway ip in ignore list.
+ HTTPS Proxy: `172.16.199.40:8080`
 
 To get CLI tools to use the proxy, we need to configure two more files.
 
-Edit the .bashrc file in your home directory to export the proxy environment vars:
+Edit the `.bashrc` file in your home directory to export the proxy environment variables as :
 
-_export HTTP_PROXY=http://172.16.199.40:8080_ \
-_export HTTPS_PROXY=https://172.16.199.40:8080_
+  `export HTTP_PROXY=http://172.16.199.40:8080`
+<br>
+  `export HTTPS_PROXY=https://172.16.199.40:8080`
 
-To get apt to work, we need to configure **/etc/apt/apt.conf**, if the file doesn't exist, create it.
+To get `apt` to work, we need to configure **/etc/apt/apt.conf**, if the file doesn't exist, create it.
+
 Add these two lines in the apt.conf file:
-_Acquire::http::proxy "http://172.16.199.40:8080/";_ \
-_Acquire::https::proxy "https://172.16.199.40:8080/";_
+  `Acquire::http::proxy "http://172.16.199.40:8080/"`
+<br>
+  `Acquire::https::proxy "https://172.16.199.40:8080/"`
 
-**Note: Don't confuse apt.conf.d with apt.conf**
+**Note: Don't confuse `apt.conf.d` with `apt.conf`**
+
+## Router
+Add the network gateway IP in ignore list.
 
 
 
