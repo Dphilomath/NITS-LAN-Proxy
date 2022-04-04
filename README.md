@@ -16,7 +16,7 @@ HTTPS Proxy: 172.16.199.40:8080
 <img width="50%" src="https://user-images.githubusercontent.com/23384886/161261232-607e482f-9e9d-43e7-9470-8cd7c7acf28f.png"/>
 
 
-To get CLI tools to use the proxy, we need to configure two more files.
+To get CLI tools to use the proxy, you need to configure two more files.
 
 #### File 1 : `.bashrc` file in your home directory (hidden file)
 
@@ -42,7 +42,7 @@ Add the network gateway IP in ignore list to access you router configuration int
 
 ### WhatsApp Mobile
 WhatsApp doesn't use network proxy settings and there's no configuration in the app to set a proxy \
-so you'll have to use a 3rd party proxy or VPN app. Some free apps include\
+so you'll have to use a 3rd party proxy or VPN app. Some free apps include
 ```
 College Proxy
 openVPN
