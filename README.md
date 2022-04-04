@@ -37,5 +37,21 @@ Acquire::https::proxy "http://172.16.199.40:8080/"
 ```
 *Note: Don't confuse `apt.conf.d` with `apt.conf`*
 
-## Router
-Add the network gateway IP in ignore list.
+### Router
+Add the network gateway IP in ignore list to access you router configuration interface.
+
+### WhatsApp Mobile
+WhatsApp doesn't use network proxy settings and there's no configuration in the app to set a proxy \
+so you'll have to use a 3rd party proxy or VPN app. Some free apps include\
+...
+College Proxy
+openVPN
+ProxyDroid(root needed)
+...
+
+### Telegram
+Telegram desktop apps have proxy configuration options built-in.\
+Telegram mobile app has the option to set only SOCKS5 and MTProto proxy. \
+To configure **http** proxy, use Telegram X.
+
+
