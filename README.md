@@ -43,12 +43,11 @@ Add the network gateway IP in ignore list to access you router configuration int
 ### WhatsApp Mobile
 WhatsApp doesn't use network proxy settings and there's no configuration in the app to set a proxy \
 so you'll have to use a 3rd party proxy or VPN app. Some free apps include\
-...
-
+```
 College Proxy
 openVPN
 ProxyDroid(root needed)
-...
+```
 
 ### Telegram
 Telegram desktop apps have proxy configuration options built-in.\
