@@ -32,8 +32,8 @@ export HTTPS_PROXY=http://172.16.199.40:8080
 
 If the file doesn't exist, create it and add these two lines in the apt.conf file:
 ```
-Acquire::http::proxy "http://172.16.199.40:8080/"
-Acquire::https::proxy "http://172.16.199.40:8080/"
+Acquire::http::proxy "http://172.16.199.40:8080/";
+Acquire::https::proxy "http://172.16.199.40:8080/";
 ```
 *Note: Don't confuse `apt.conf.d` with `apt.conf`*
 
